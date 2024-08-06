@@ -9,9 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        icon: "url('/assets/svg/irregularBg.svg')",
+        oilGas: "url('/assets/svg/oilGas.svg')",
+      },
+      fontFamily: {
+        sora: ["Sora", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+      colors: {
+        primary: "#008451",
       },
     },
   },
